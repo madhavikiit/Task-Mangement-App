@@ -1,0 +1,84 @@
+/* styles/Signup.module.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+  }
+  
+  .card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .card h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .inputField {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .inputField:focus {
+    outline: none;
+    border-color: #0070f3;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 0.875em;
+    margin-top: 5px;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .submitButton:disabled {
+    background-color: #a0a0a0;
+  }
+  
+
+  .loginLink {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  .loginLink a {
+    color: #0070f3;
+    text-decoration: none;
+  }
+  
+  .loginLink a:hover {
+    text-decoration: underline;
+  }
+  

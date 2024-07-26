@@ -1,0 +1,18 @@
+
+.sidebar {
+    width: 0px;
+    position: fixed;
+    top: 10;
+    left: 1;
+    height: 100%;
+    /* background-color: #ed1c7a; */
+    color: rgb(237, 149, 34);
+    padding: 10px;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+  }
+  
+  .sidebarOpen .sidebar {
+    transform: translateX(0);
+  }
+  

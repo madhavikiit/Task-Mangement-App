@@ -1,0 +1,223 @@
+.container {
+    padding: 20px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #363835;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px; 
+    box-shadow: 5px 5px rgba(12, 10, 8, 0.1);
+    background-color: #f4f4c7;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+  }
+  
+  .card ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .card ul li {
+    background: #f4f4c7;
+    margin: 5px 0;
+    border-radius: 4px;
+    color: rgb(22, 19, 19);
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .createButton {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .createButton:hover {
+    background-color: #fcf04d;
+  }
+  
+  .buttonSpacing {
+    margin-right: 10px; 
+  }
+
+ 
+.sidebar {
+  width: 200px;
+  position: fixed;
+  top: 70;
+  left: 0;
+  height: 100%;
+  background-color: #051423;
+  color: white;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.main-content {
+  margin-left: 0;
+  transition: margin-left 0.3s ease;
+}
+
+.main-content.sidebar-open {
+  margin-left: 250px;
+}
+
+.header {
+  background-color: #99f225;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+
+.header button {
+  background-color: #a0ec1e;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.header button:hover {
+  background-color: #0056b3;
+}
+
+
+.container {
+  transition: margin-left 0.3s ease-in-out;
+}
+
+.sidebarOpen {
+  margin-left: 150px; 
+}
+
+.topRightButton {
+  position: relative; /* Change from fixed to relative */
+  display: block; /* Ensure it's displayed as a block element */
+  margin: 50px 0; /* Add margin to space it from other elements */
+  background-color: rgba(10, 167, 172, 0.9);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.topRightButton:hover {
+  background-color: #0056b3;
+}
+
+
+
+.tableContainer {
+  width: 80%;
+ 
+  margin-left: 150px; 
+}
+
+.tableContainer table {
+  width: 100%; 
+}
+
+.noTaskMessage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 50px;
+}
+
+
+
+/* .topRightButton {
+  position: absolute;
+  top: 10px; 
+  right: 20px;
+  background-color: rgba(10, 167, 172, 0.9);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.topRightButton:hover {
+  background-color: #0056b3;
+}
+
+.taskButton {
+  position: absolute;
+  top: 10px; 
+  right: 20px;
+  background-color: rgba(28, 230, 230, 0.9);
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.taskButton:hover {
+  background-color: #0056b3;
+}
+
+ */
+ .header {
+  background-color: #99f225;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logoutButton {
+  background-color: #a0ec1e;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.header .logoutButton:hover {
+  background-color: #0056b3;
+}
+
+.addTaskButton {
+  position: relative; /* Ensures it's positioned in the normal flow */
+  display: block;
+  top: 20px; /* Adjust the top margin as needed */
+  left: 1070px;/* Adjust the margin as needed */
+  background-color: #2E236C; /* Use a color that fits your design */
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.addTaskButton:hover {
+  background-color: #0056b3;
+}
+
+
+
+
