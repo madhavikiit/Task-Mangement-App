@@ -4,7 +4,7 @@ import Card from '../components/Card';
 import styles from '../styles/Home.module.css';
 import CreateButton from './CreateButton';
 import FormModal from './FormModal';
-import { getProjects, createProject, updateProject, deleteProject } from './apiService';
+import { getProjects, createProject, updateProject, deleteProject } from '../common/apiService';
 import Header from './header'; 
 import Sidebar from './Sidebar';
 

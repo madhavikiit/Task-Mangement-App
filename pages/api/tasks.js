@@ -1,5 +1,5 @@
 import instance from '../../lib/api'
-import { authHeader } from '../authHeader';
+import { authHeader } from '../../common/authHeader';
 
 
 

@@ -4,7 +4,7 @@ import * as Yup from 'yup';
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import styles from '../styles/Login.module.css';
-import { login } from './apiService'; 
+import { login } from '../common/apiService'; 
 
 
 const LoginSchema = Yup.object().shape({
@@ -86,7 +86,7 @@ const Login = () => {
               </button>
 
               <p className={styles.signupLink}>
-                Don't have an account? <Link href="/signup">Signup</Link>
+                Don&#39;t have an account? <Link href="/signup">Signup</Link>
               </p>
             </Form>
           )}

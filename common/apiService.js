@@ -1,5 +1,5 @@
 import instance, { formInstance } from '../lib/api';
-import { authHeader } from './authHeader';
+import { authHeader } from '../common/authHeader';
 
 
 export async function login(userData) {
